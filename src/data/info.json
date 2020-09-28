@@ -1,0 +1,229 @@
+[
+  {
+    "name": "home",
+    "headerDescription": "Jack Carrick is a Seattle-based musician, educator, and artist.",
+    "bodyDescription": "Currently @ <a href='http://recurse.com' target='_blank'>Recurse Center</a><br><br>B.A. Philosophy, Lewis & Clark College (2016)",
+
+    "contact": "<a href='http://github.com/jaqarrick'> Github </a><br><A HREF='jpcarrick@icloud.com'>Email</A> <br><a href='http://instagram.com/jaqarrick' target='_blank'> Istagram </a> ",
+    "images": [
+      {
+        "description": "portrait",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1588734457/portfolio_images/portrait.jpg"
+      }
+    ]
+  },
+  {
+    "name": "endless sequence",
+    "year": "2020",
+    "contact": "<a href='./projects/endless-sequence' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/endless-sequence' target='_blank'>View source code</a>",
+    "headerDescription": "Endless sequence a web instrument built using Tone.js. The user can create an endless loop of notes, varying in pitch. The loop displays as a series of circles, whose path is recorded by the cursor.",
+    "link": "./projects/endless-sequence",
+    "images": [
+      {
+        "description": "screenshot1",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/endless-sequence1.png"
+      },
+      {
+        "description": "screenshot2",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/endless-sequence2.png"
+      },
+      {
+        "description": "screenshot3",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/endless-sequence3.png"
+      }
+    ]
+  },
+  {
+    "name": "react sequencer",
+    "year": "2020",
+    "contact": "<a href='https://jaqarrick.github.io/react-sequencer/' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/react-sequencer' target='_blank'>View source code</a>",
+    "headerDescription": "A flexible and compact multi-instrument sequencer, build with React and Tone. The user can chose from different instruments and effects to create unique rhythms and sounds.",
+    "link": "https://jaqarrick.github.io/react-sequencer",
+    "images": [
+      {
+        "description": "screenshot1",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/react-sequencer1.png"
+      },
+      {
+        "description": "screenshot2",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/react-sequencer2.png"
+      }
+    ]
+  },
+  {
+    "name": "musical windows",
+    "year": "2018-2020",
+    "headerDescription": "Musical Windows is an interactive web instrument that utilizes both Tone.js and Teoria.js libraries.",
+    "bodyDescription": "Built as an excersize in audiovisual programming, Musical Windows allows visitors to experiment with a variety of musical scales, while controlling reverb and delay.",
+    "contact": "<a href='./projects/musical-windows' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/musical-windows' target='_blank'>View source code</a>",
+
+    "link": "./projects/musical-windows",
+    "images": [
+      {
+        "description": "screenshot1",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/mw1.png"
+      },
+      {
+        "description": "screenshot2",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/mw2.png"
+      },
+      {
+        "description": "screenshot2",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/mw3.png"
+      }
+    ]
+  },
+  {
+    "name": "extended techniques",
+    "year": "2019",
+    "headerDescription": "Contemporary music is often limited by the constraints of its own mediums. The Musician, confined in the conventional methods of sound production, can fall into the trap of painting with small strokes, using a pallet of few colors. The guitarist, for example, uses 6 strings, all tuned to externally determined frequencies. While velocity, amplitude, and timbre to some extent can be altered, each fret is fixed and the instrument is contained. Extended Techniques is an excursive in expansion, breaking away from this form of containment.",
+    "bodyDescription": "Each piece in Extended Techniques takes a popular instrument and expands its sonic capabilities through a variety of methods.",
+    "link": "https://ext-tech.bandcamp.com",
+    "images": [
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_2000/v1588734457/portfolio_images/extended_techniques_artwork6_small.jpg",
+        "description": "album-cover"
+      }
+    ],
+    "pieces": [
+      {
+        "name": "prepared-guitar",
+        "description": "Prepared-guitar centers the guitar strings as primarily percussive elements in the composition. The strings are de-tuned and the bridge is re-positioned, which creates distinct, unfamiliar frequencies and timbres.",
+        "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=4263679896/size=small/bgcol=ffffff/linkcol=7137dc/artwork=none/track=3705424589/transparent=true/' seamless><a href='http://ext-techq.bandcamp.com/album/extended-techniques'>Extended Techniques by Extended Techniques</a></iframe>"
+      },
+      {
+        "name": "midi-banjo",
+        "description": "The quality of the banjo is entirely distinct and often isolated, due to its unique resonant chamber. Midi-banjo focuses on this chamber in total isolation from the strings. The goal is to create a composition whose instrument is unrecognizable through sampling techniques with minimal effects processing.",
+        "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=4263679896/size=small/bgcol=ffffff/linkcol=7137dc/artwork=none/track=2616043148/transparent=true/' seamless><a href='http://ext-techq.bandcamp.com/album/extended-techniques'>Extended Techniques by Extended Techniques</a></iframe>"
+      },
+      {
+        "name": "holy-organ",
+        "description": "Reed instruments are extremely varied in their sonic quality. They are dependent on how the source wave form is analogically processed. The cathedral organ, for instance, relies wholly on the structure of the cathedral itself as its resonant chamber. Holy-Organ alters the output of a simple reed accordion by expanding its resonance through digitally added reverb. This attempts to transform the instrument itself into an organ with significant resonance, a digital cathedral.",
+        "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=4263679896/size=small/bgcol=ffffff/linkcol=7137dc/artwork=none/track=3462626075/transparent=true/' seamless><a href='http://ext-techq.bandcamp.com/album/extended-techniques'>Extended Techniques by Extended Techniques</a></iframe>"
+      }
+    ]
+  },
+  {
+    "name": "double tape",
+    "year": "2020",
+    "headerDescription": "Methods and machines used to play and listen to music are rarely thought of as performing the sounds they output. In the minds of listeners, they are passive messengers that merely transport sonic information. 'Double Tape' conversely places a tape player as the musician, the performer, and the sole producer of its own sound.",
+    "bodyDescription": "The composition uses samples taken from a tape player, playing a blank tape. Crackles, distortion, hisses, and buzzes are altered into synthesizers and percussive instruments through minimal digital effects and signal processing. The sounds are then recorded back onto the machine and played back by itself. Double Tape is the tape player's performance of its own composition.",
+    "link": "https://ext-tech.bandcamp.com/double-tape",
+    "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=2696732800/size=small/bgcol=ffffff/linkcol=e99708/artwork=none/transparent=true/' seamless><a href='http://ext-techq.bandcamp.com/album/double-tape'>Double Tape by Jack Carrick</a></iframe>",
+    "images": [
+      {
+        "description": "album-cover",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_2000/v1588734466/portfolio_images/double-tape2.jpg"
+      }
+    ]
+  },
+  {
+    "name": "sweet isolate",
+    "year": "2020",
+    "headerDescription": "Sweet Isolate is a single written and performed by Jack Carrick (Coby Tamayo on drums/bass - backup vocals by Rowan Carrick ). This song was mixed and mastered by Kurt Roy.",
+    "link": "http://lutes.bandcamp.com",
+    "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=408130175/size=small/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/' seamless><a href='http://lutes.bandcamp.com/album/sweet-isolate-single'>Sweet Isolate ~ single by Lutes</a></iframe>",
+    "images": [
+      {
+        "description": "album-cover",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1590011089/portfolio_images/LUTES19.png"
+      }
+    ]
+  },
+  {
+    "name": "wildflower",
+    "year": "2017",
+    "headerDescription": "Wildflower is a folk-rock album, written, performed, and produced by Jack Carrick in 2017.",
+    "contact": "Artwork by <a href='https://alexaterfloth.com/'>Alexa Terfloth</a>",
+    "link": "http://jackcarrick.bandcamp.com",
+    "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=3944010562/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/' seamless><a href='https://jackcarrick.bandcamp.com/album/wildflower-ep'>Wildflower EP by Jack Carrick</a></iframe>",
+    "images": [
+      {
+        "description": "album-cover",
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1588734457/portfolio_images/Wildflower_Cover.jpg"
+      }
+    ]
+  },
+  {
+    "name": "naught",
+    "year": "2018-2020",
+    "headerDescription": "Naught is an experimental ambient/drone project. Using voice and guitar as primary instruments, Naught extends these sounds through intense and intentional signal processing to create an overwhelming, consuming environment.",
+    "pieces": [
+      {
+        "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=977798515/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/' seamless><a href='http://naughtseattle.bandcamp.com/album/some-place-beyond'>some place beyond by naught</a></iframe>",
+        "images": [
+          {
+            "description": "album-cover",
+            "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1589000499/portfolio_images/naught1.jpg"
+          }
+        ]
+      },
+      {
+        "media": "<iframe style='border: 0; width: 100%; height: 42px;' src='https://bandcamp.com/EmbeddedPlayer/album=4188502533/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/' seamless><a href='http://naughtseattle.bandcamp.com/album/seeing'>seeing by naught</a></iframe>",
+        "images": [
+          {
+            "description": "album-cover",
+            "src": "https://res.cloudinary.com/dcttcffbc/image/upload/v1589000499/portfolio_images/naught.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "photo",
+    "headerDescription": "Utilizing both film and digital mediums, Jack explores the interactions of color, structure, and substance through portraits, landscapes, and concert photography.",
+    "link": "./photo",
+    "contact": "Explore the full gallery <a href='./photo'>here</a>.",
+    "images": [
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_2000/Photo_Site/Portugal-15.jpg",
+        "description": "Sagres, Portugal"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_2000/Photo_Site/jackspain3.jpg",
+        "description": "Jabugo, Spain"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/Portugal-20.jpg",
+        "description": "Fishermen in Sagres, Portugal"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/Portugal-19.jpg",
+        "description": "Fishermen in Sagres, Portugal"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/Manakin.jpg",
+        "description": "Buenos Aires, Argentina"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/DSC_7575.jpg",
+        "description": "Barcelona, Spain"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/DSC_8153.jpg",
+        "description": "La Merce Fesitval, Barcelona"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_2000/Photo_Site/027_27-5.jpg",
+        "description": "Isla Incahuasi, Salar de Uyuni, Bolivia"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_2000/Photo_Site/033_33-2.jpg",
+        "description": "Salar de Uyuni, Bolivia"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/Neumos_4-17-18-4.jpg",
+        "description": "Ian Sweets at Neumos, Seattle"
+      },
+      {
+        "src": "https://res.cloudinary.com/dcttcffbc/image/upload/f_auto,w_1800/Photo_Site/GoldenGardensBarboza11-30-4.jpg",
+        "description": "Golden Gardes at Barboza, Seattle"
+      }
+    ]
+  },
+  {
+    "name": "guitar",
+    "headerDescription": "Jack has studied Jazz, Classical, and Flamenco guitar since childhood. Jack has studied under Kevin Callhan (Seattle), John Mery (Portland), Julia Banzi (Portland), Dan Balmer (Portland), and Kaveh Nassehi (Sevilla), Jack has build a wide and genre-crossing repetroire. Jack currently teaches and performs in Seattle.",
+    "media": "<iframe width='560' height='315' src='https://www.youtube.com/embed/_aNy_Cm8QIM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+]

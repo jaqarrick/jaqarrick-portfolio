@@ -1,0 +1,283 @@
+body {
+  margin:0;
+  overflow-X: hidden;
+  transition: background-color 1s, opacity 0.5s;
+  font-family: Montserrat, sans-serif;
+  opacity: 0;
+}
+
+.slider:hover {
+   background-color:  #e60000
+
+}
+img {
+  opacity: 0
+}
+.container{
+  margin: 0 auto;
+}
+
+a {
+  font-weight: normal;
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+/*   margin: 0 auto;
+  width: 100%; */
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  width: 72px;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+li:hover {
+  /* text-shadow: 1.1px 0 0 currentColor; */
+  font-weight: bold;
+}
+li:focus {
+  color: blue;
+}
+
+p {
+  margin: 0;
+}
+ #logo h1 {
+   margin: 0;
+   font-family: Monoton;
+   font-weight: normal;
+   font-size: 3rem;
+   padding-right: 50px;
+   padding-left: 50px;
+ }
+.content-container {
+  display: flex;
+  z-index:0;
+  padding-top: 20px;
+}
+header {
+  color: red;
+  text-align: center;
+  height: auto;;
+  padding-top: 0px;
+  border-bottom: 2px dashed red;
+/*   position: fixed; */
+  width: 100vw;
+}
+
+.smallcol {
+  width: 15%;
+  height: 1000px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.maincol {
+  width: 70%;
+  height: 1000px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 569px) {
+
+  .slider {
+    height: 700px;
+    transform: translateY(662px);
+    bottom: 0;
+  }
+  header {
+    padding-top: 0px;
+  }
+  #logo h1 {
+    font-size: 1.6rem;
+  }
+  #about-content {
+/*     background-color: red; */
+    text-align: center;
+    margin-top: 10px;
+    overflow: scroll;
+    height: 600px;
+  }
+  #about-button {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed white;
+  }
+  #about-text {
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-right: 40px;
+    margin-left: 70px;
+    padding: 0;
+  }
+  #about-photo {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .infobar {
+    display: none;
+  }
+  .caption-holder {
+    font-size: 10px;
+    margin-bottom: 50px;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 570px) {
+    #about-content {
+      height: 100vh;
+    /*   width: 400px; */
+      left: 0;
+      right: 0;
+      padding-top: 30px;
+      margin-right: 50px;
+      margin-left: 50px;
+    /*   justify-content: center; */
+      text-align: center;
+      border-right: 1px dashed white;
+    }
+  .slider {
+    height: 100vh;
+    color: black;
+    z-index: 1;
+    position: fixed;
+    width: 600px;
+    background-color: red;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    transform: translateX(-550px);
+  }
+  #about-photo img {
+    width: 90%;
+    height: auto;
+  }
+  #about-button {
+    transform: rotate(90deg);
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    top:0;
+    height: 100px;
+  /*   margin-left: 100px; */
+    margin-right: 9px;
+  }
+  .infobar {
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  width: 15%;
+/*   background-color:red; */
+  opacity: 1;
+  font-family: "Krona One", sans-serif;
+  overflow: hidden;
+
+  }
+  .caption-holder {
+    margin-bottom: 100px;
+    text-align: right;
+  }
+}
+
+#about-button {
+    cursor: pointer;
+    font-family: Monoton;
+    font-size: 1.5em;
+    color:white;
+}
+ #about-text {
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+   margin-top: 10px
+}
+#about-text a {
+ color:yellow
+}
+#about-text a:hover {
+  color: blue
+}
+.slider {
+  z-index: 1;
+  position: fixed;
+  background-color: red;
+  cursor: pointer;
+}
+
+#about-photo img {
+  width: 90%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.image-holder {
+  /* margin-bottom: 100px; */
+  margin-top: 10px;
+}
+
+
+#photo-text {
+  height: auto;
+  padding: 3px;
+  margin-top: 500px;
+  color: red;
+
+}
+
+#section-text {
+ font-size: 10px;
+  color: red;
+  margin: 0 auto;
+  width: 100%;
+  transform: rotate(20deg);
+  margin-left: 18px;
+  opacity: 1;
+  transition: opacity 0.6s,
+}
+#arrow {
+  color: #e60000;
+  font-size: 40px;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 250px;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 3s;
+}
+
+.gallery {
+  display:none;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+/*
+
+.places {
+  display: block;
+} */
+.currentGal {
+  display: block;
+
+}
+
+.button.current {
+  /* text-shadow: 1.1px 0 0 currentColor; */
+  font-weight: bold;
+}

@@ -1,0 +1,92 @@
+.wrapper .menu-container {
+  width: 246px;
+  border-right: solid black 2px;
+  position: fixed;
+  height: 100vh;
+}
+.wrapper .menu-container .list-container ul li {
+  cursor: pointer;
+  list-style: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.wrapper .menu-container .list-container ul li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.wrapper .menu-container .list-container ul li.active {
+  color: rgb(226, 44, 44);
+  text-decoration: underline;
+}
+
+.wrapper .menu-container .list-container.active {
+  max-height: 98%;
+  overflow: auto;
+  display: flex;
+  background-color: white;
+  height: 100vh;
+}
+
+.wrapper .menu-container .menu-header {
+  width: auto;
+  height: 70px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px 0px;
+  font-size: 33px;
+  cursor: pointer;
+  letter-spacing: 12px;
+}
+
+@media screen and (max-width: 878px) {
+  .wrapper .menu-container .list-container {
+    display: none;
+  }
+  .wrapper.home .menu-container {
+    border-right: none;
+    width: 100vw;
+    border-bottom: 100vw;
+    height: auto;
+    background-color: white;
+  }
+  .wrapper .menu-container .menu-header .desktop-header-logo {
+    display: none;
+  }
+  .wrapper .menu-container .menu-header .mobile-header-logo {
+    font-size: 1.2rem;
+    width: 90vw;
+  }
+  .wrapper .menu-container .menu-header .arrow-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+  .wrapper .menu-container .menu-header .arrow-container.active {
+    transform: rotate(180deg);
+  }
+  .wrapper .menu-container .menu-header {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 879px) {
+  .wrapper .menu-container .menu-header .desktop-header-logo {
+    display: block;
+  }
+  .wrapper .menu-container .menu-header .mobile-header-logo {
+    display: none;
+  }
+  .wrapper .menu-container .menu-header .arrow-container {
+    display: none;
+  }
+}
