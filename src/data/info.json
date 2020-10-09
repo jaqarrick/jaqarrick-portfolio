@@ -15,7 +15,7 @@
   {
     "name": "endless sequence",
     "year": "2020",
-    "contact": "<a href='./projects/endless-sequence' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/endless-sequence' target='_blank'>View source code</a>",
+    "contact": "<a href='./projects/endless-sequence' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/endless-sequence' target='_blank'>View code</a>",
     "headerDescription": "Endless sequence a web instrument built using Tone.js. The user can create an endless loop of notes, varying in pitch. The loop displays as a series of circles, whose path is recorded by the cursor.",
     "link": "./projects/endless-sequence",
     "images": [
@@ -36,7 +36,7 @@
   {
     "name": "react sequencer",
     "year": "2020",
-    "contact": "<a href='https://jaqarrick.github.io/react-sequencer/' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/react-sequencer' target='_blank'>View source code</a>",
+    "contact": "<a href='https://jaqarrick.github.io/react-sequencer/' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/react-sequencer' target='_blank'>View code</a>",
     "headerDescription": "A flexible and compact multi-instrument sequencer, build with React and Tone. The user can chose from different instruments and effects to create unique rhythms and sounds.",
     "link": "https://jaqarrick.github.io/react-sequencer",
     "images": [
@@ -55,7 +55,7 @@
     "year": "2018-2020",
     "headerDescription": "Musical Windows is an interactive web instrument that utilizes both Tone.js and Teoria.js libraries.",
     "bodyDescription": "Built as an excersize in audiovisual programming, Musical Windows allows visitors to experiment with a variety of musical scales, while controlling reverb and delay.",
-    "contact": "<a href='./projects/musical-windows' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/musical-windows' target='_blank'>View source code</a>",
+    "contact": "<a href='./projects/musical-windows' target='_blank'> Try it out </a> | <a href='https://github.com/jaqarrick/musical-windows' target='_blank'>View code</a>",
 
     "link": "./projects/musical-windows",
     "images": [
